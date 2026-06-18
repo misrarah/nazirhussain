@@ -206,8 +206,9 @@ ul { list-style: none; }
 
 .nav-logo {
   display: flex;
-  align-items: baseline;
-  gap: 0.45rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.1rem;
   text-decoration: none;
   flex-shrink: 0;
 }
@@ -218,19 +219,16 @@ ul { list-style: none; }
   font-weight: 600;
   color: #fff;
   letter-spacing: 0.01em;
+  line-height: 1.1;
 }
 
-.nav-logo-sep {
-  color: rgba(255,255,255,0.3);
-  font-size: 0.9rem;
-}
-
-.nav-logo-place {
+.nav-logo-tagline {
   font-family: 'Nunito', sans-serif;
-  font-size: 0.78rem;
+  font-size: 0.72rem;
   font-weight: 400;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.05em;
   color: var(--sandstone);
+  line-height: 1;
 }
 
 .nav-menu {
